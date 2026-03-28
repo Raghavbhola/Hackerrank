@@ -16,3 +16,4 @@ my_string = input()
 print(i + my_int)
 print(d + my_double)
 print(s + my_string)
+
