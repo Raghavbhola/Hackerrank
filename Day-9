@@ -1,1 +1,18 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+n = int(input())
+di = {}
 
+for i in range(n):
+    key, value = input().split() 
+    di[key] = value
+    
+try:
+    while True:
+        q = input()
+        if q in di:
+            print(f"{q}={di[q]}")
+        else:
+            print("Not found")
+except:
+    pass    
+    
